@@ -49,12 +49,5 @@ MSJ;
     echo $textoMail;
   }
 
-  main();
 
-  echo "<br>";
-  echo "<a href='ej1.php'><button style='margin: 5px;'>1</button></a>";
-  echo "<a href='ej2.php'><button style='margin: 5px;'>2</button></a>";
-  echo "<a href='ej3.php'><button style='margin: 5px;'>3</button></a>";
-  echo "<a href='ej4.php'><button style='margin: 5px; background-color: #cccccc; border-color:#cccccc;'>4</button></a>";
-  echo "<a href='ej5.php'><button style='margin: 5px;'>5</button></a>";
 ?>
