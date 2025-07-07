@@ -8,7 +8,7 @@
   function cantLetras($cad){
     $cont=0;
     for($i=0; $i<strlen($cad); $i++){ //ciclo 
-      // condicion                         o
+      // condicion                         
       if (($cad[$i]>='A' && $cad[$i]<='Z') || ($cad[$i]>='a' && $cad[$i]<='z')){
         $cont=$cont+1;
       }
@@ -28,6 +28,6 @@
 
   main();
 
-
-
 ?>
+
+
