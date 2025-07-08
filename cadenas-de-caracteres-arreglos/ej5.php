@@ -21,10 +21,10 @@
     $presentacion = obtenerPresentacion($genero);
     $mensaje = str_replace("{#diaRetiro}",$dia,$mensaje);
     $txtMail=<<<TXT
-{$presentacion}, {$apellido} {$nombre}.<br>
-$mensaje<br>
-$saludo<br>
-$firma
+    {$presentacion}, {$apellido} {$nombre}.<br>
+    $mensaje<br>
+    $saludo<br>
+    $firma
 TXT;
     return $txtMail;
   }
