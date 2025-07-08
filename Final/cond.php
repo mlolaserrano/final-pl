@@ -1,4 +1,6 @@
 <?php
+  //Condicionales 
+
   function fun ($num){
     if($num<=-10){
       $res = "#";
